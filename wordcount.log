@@ -1,0 +1,3 @@
+Total Execution Time for split size (32): 4334 milliseconds
+Total Execution Time for split size (64): 4315 milliseconds
+Total Execution Time for split size (128): 4307 milliseconds
