@@ -41,22 +41,6 @@ Then **Kernel → Restart** before running anything else.
 2. Run **Cell 1** (installs dependencies) → restart kernel
 3. Run **all cells top to bottom** (Cell → Run All)
 
-**Do not skip cells.** Each part depends on variables set in earlier cells:
-
-```
-Cell 1  (install)
-  ↓
-Cell 3  (imports)
-  ↓
-Cell 5  (load data)
-  ↓
-Cell 7  (train/test split)  ← required by ALL evaluation cells
-  ↓
-Parts 1–6 in order
-  ↓
-Final comparison table
-```
-
 ---
 
 ## Dataset
