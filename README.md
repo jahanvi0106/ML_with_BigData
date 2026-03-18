@@ -110,7 +110,7 @@ This avoids the common mistake of evaluating against movies the model was traine
 
 ---
 
-## Expected Results
+## Results
 
 ```
 Model                  RMSE     P@10    R@10
